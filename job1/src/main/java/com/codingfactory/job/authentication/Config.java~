@@ -1,0 +1,4 @@
+package com.codingfactory.job.authentication;
+
+public class Config {
+}
