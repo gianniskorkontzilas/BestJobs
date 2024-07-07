@@ -306,8 +306,20 @@ label.large-label {
   background-attachment: scroll;
 }
 
+.job_search_background {
+  overflow: hidden;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 34, 68, 0.5),
+      rgba(0, 34, 68, 0.5)
+    ),
+    url('../assets/newjob.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
 .job_seeker_background {
-  height: 100vh;
   overflow: hidden;
   background-image: linear-gradient(
       to right,
@@ -318,6 +330,21 @@ label.large-label {
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
+}
+
+
+.rec_profile_background {
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 34, 68, 0.5),
+      rgba(0, 34, 68, 0.5)
+    ),
+    url('../assets/newjob.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
 }
 
 .jobs_background {

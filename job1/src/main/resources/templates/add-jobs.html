@@ -15,14 +15,14 @@
 <body>
 
 <div style="display: flex">
-    <div class="col-md-6 job_search_background">
+    <div class="col-md-5 job_search_background">
         <div class="logo_left2 mt-3 pt-4 ms-5 pl-5">
             <h2 class="logo" style="color: white">
                 BestJobs<span class="logo_com">.com</span>
             </h2>
         </div>
     </div>
-    <div class="col-md-6 container myForm">
+    <div class="col-md-7 container myForm">
         <form id="job-main-form" th:action="@{/dashboard/addNew}" th:object="${jobPostActivity}" method="post" class="job-add-form">
             <input hidden type="text" th:field="*{jobPostId}" >
             <input hidden type="text" th:field="*{jobLocationId.Id}" >
